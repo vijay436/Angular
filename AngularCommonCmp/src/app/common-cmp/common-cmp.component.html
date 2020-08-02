@@ -1,0 +1,28 @@
+
+
+
+<table  >
+    <tr *ngFor="let headers of tableHeader">
+      <th>{{headers.Header1}}</th>
+      <th>{{headers.Header2}}</th>
+      <th>{{headers.Header3}}</th>
+      <th>{{headers.Header4}}</th>
+      <th>{{headers.Header5}}</th>
+    </tr>
+  
+    <tr *ngFor="let tblData of tblDataList">
+      <td>{{tblData.Data1}}</td>
+      <td>{{tblData.Data2}}</td>
+      <td>{{tblData.Data3}}</td>
+      <td>{{tblData.Data4}}</td>
+      <td>{{tblData.Data5}}</td>
+    </tr>
+   
+  </table>
+  <div class="example-button-row">
+   
+    <button mat-raised-button color="primary">Save</button>
+   
+  </div>
+  
+  
